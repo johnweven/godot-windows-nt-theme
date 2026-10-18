@@ -10,17 +10,10 @@ config_version=5
 
 [application]
 
-config/name="Windows95UI"
-run/main_scene="res://addons/windows_95_theme/save1.tscn"
-config/features=PackedStringArray("4.0", "Forward Plus")
-config/icon="res://addons/windows_95_theme/icon.png"
-
-[display]
-
-window/size/viewport_width=3024
-window/size/viewport_height=1890
-window/size/mode=3
+config/name="Windows NT 4.0 UI Theme"
+config/features=PackedStringArray("4.7")
+config/icon="res://addons/windows_NT_theme/icon.png"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/windows_95_theme/plugin.cfg")
+enabled=PackedStringArray("res://addons/windows_NT_theme/plugin.cfg")
